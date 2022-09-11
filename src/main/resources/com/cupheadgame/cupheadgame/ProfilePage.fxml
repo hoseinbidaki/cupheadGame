@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="220.0" prefWidth="491.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cupheadgame.cupheadgame.Controller.ProfilePage">
+   <children>
+      <ImageView fx:id="avatar" fitHeight="127.0" fitWidth="193.0" layoutX="33.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pic/Avatars/unknown.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="userLabel" layoutX="180.0" layoutY="51.0" prefHeight="17.0" prefWidth="60.0" text="username: " />
+      <Button fx:id="random" layoutX="49.0" layoutY="150.0" mnemonicParsing="false" onMouseClicked="#setRandom" prefHeight="25.0" prefWidth="95.0" text="set random" />
+      <TextField fx:id="username" layoutX="246.0" layoutY="47.0" prefHeight="25.0" prefWidth="207.0" />
+      <PasswordField fx:id="password" layoutX="246.0" layoutY="98.0" prefHeight="25.0" prefWidth="207.0" />
+      <Label layoutX="184.0" layoutY="102.0" text="password:" />
+      <Button fx:id="backbtn" layoutX="246.0" layoutY="146.0" mnemonicParsing="false" onMouseClicked="#back" prefHeight="25.0" text="back" />
+      <Button fx:id="save" layoutX="298.0" layoutY="146.0" mnemonicParsing="false" onMouseClicked="#saveChanges" prefHeight="25.0" prefWidth="134.0" text="save changes" />
+      <Button fx:id="remover" layoutX="246.0" layoutY="181.0" mnemonicParsing="false" onMouseClicked="#removeAccount" prefHeight="25.0" prefWidth="186.0" text="remove account!" />
+      <Button layoutX="49.0" layoutY="181.0" mnemonicParsing="false" onMouseClicked="#chosefile" prefHeight="25.0" prefWidth="95.0" text="browser" />
+   </children>
+</AnchorPane>

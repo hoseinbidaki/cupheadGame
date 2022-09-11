@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="284.0" prefWidth="330.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cupheadgame.cupheadgame.Controller.ScoreBoardPage">
+   <children>
+      <ScrollPane layoutX="65.0" layoutY="63.0" prefHeight="174.0" prefWidth="200.0">
+         <content>
+            <VBox fx:id="vbox" prefHeight="178.0" prefWidth="184.0" />
+         </content></ScrollPane>
+      <Label layoutX="14.0" layoutY="14.0" text="Score Boards">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Button fx:id="back" layoutX="14.0" layoutY="252.0" mnemonicParsing="false" onMouseClicked="#Back" text="back" />
+   </children>
+</AnchorPane>
